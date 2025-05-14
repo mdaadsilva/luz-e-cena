@@ -1,11 +1,18 @@
 import Banner from "./components/Banner";
-import Link from "./components/Link";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import MovieSection from "./components/MovieSection";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
     <>
-      <Banner src="./Imagens/banner.png" alt="Banner" />;
-      <Link href="/" target="_blank">Link</Link>
+      <Header />
+      <Banner src="./banner.png" alt="Banner" />
+      <MovieSection />
+      <Banner src="./combo.png" alt="Combo" />
+      <Newsletter />
+      <Footer />
     </>
   );
 }
